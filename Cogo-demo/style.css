@@ -265,6 +265,15 @@
     padding-top: 5px;
 }
 
+.pad8{
+   margin-left: 40px;
+}
+
+.img8{
+    display: flex;
+    padding-left: 120px;
+}
+
 .p9{
     background-color: white;
     width: 100%;
