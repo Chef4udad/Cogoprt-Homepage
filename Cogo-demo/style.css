@@ -7,9 +7,9 @@
     font-family: sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
     .container {
-        width: 100%;
+        width: 375px;
     }
 }
 
@@ -501,3 +501,47 @@
     }
   }
   
+  @media screen and (max-width: 426px)
+{
+  .containContent
+  {
+      max-width: 426px !important;
+  }
+  .contain {
+      max-width: 426px !important;
+    }
+    .navigation{
+        
+      max-width: 426px !important;
+      display: none;
+  }
+}
+
+@media screen and (max-width: 768px) 
+{
+    .contain {
+      width: 1200px;
+    }
+    .containContent
+    {
+        width: 1200px;
+    }
+    .navigation{
+        width: 1200px;
+    }
+ 
+}
+
+  @media screen and (max-width: 1024px)
+{
+    .contain {
+      width: 1200px;
+    }
+    .containContent
+    {
+        width: 1200px;
+    }
+    .navigation{
+        width: 1200px;
+    }
+}
